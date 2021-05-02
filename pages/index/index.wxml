@@ -1,0 +1,127 @@
+<HdView/>
+
+<view class="banner">
+  <swiper circular autoplay indicator-dots indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" interval="4000">
+    <swiper-item><image src="/images/banner1.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/banner2.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/banner3.jpg"></image></swiper-item>
+  </swiper>
+</view>
+
+
+
+<scroll-view class="major" scroll-x> 
+
+    <navigator url="/pages/ps/ps">
+      <image class="img" src="/images/kecheng1.png"></image>
+      <view class="text">平面设计</view>
+    </navigator>
+    <navigator>
+      <image class="img" src="/images/kecheng2.png"></image>
+      <view class="text">室内设计</view>
+    </navigator>
+    <navigator>
+      <image class="img" src="/images/kecheng3.png"></image>
+      <view class="text">UI设计</view>
+    </navigator>
+    <navigator>
+      <image class="img" src="/images/kecheng4.png"></image>
+      <view class="text">影视后期</view>
+    </navigator>
+    <navigator>
+      <image class="img" src="/images/kecheng5.png"></image>
+      <view class="text">Web前端</view>
+    </navigator>
+</scroll-view>
+
+<view class="works">
+  <MyTitle mytxt="学员作品" myUrl="/pages/dome1/dome1"/>
+  <view class="wkMain content" >
+    <navigator class="box">
+    <image class="pic" src="/images/xszp1.jpg"></image>
+    <view class="ceng">
+      <view class="tit">UI设计作品</view>
+      <view class="line"></view>
+      <view class="des">UI design works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp2.jpg"></image>
+    <view class="ceng">
+      <view class="tit">室内设计作品</view>
+      <view class="line"></view>
+      <view class="des">Interior Design Works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp3.jpg"></image>
+    <view class="ceng">
+      <view class="tit">平面设计作品</view>
+      <view class="line"></view>
+      <view class="des">Graphic Design Works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp4.jpg"></image>
+    <view class="ceng">
+      <view class="tit">网页设计作品</view>
+      <view class="line"></view>
+      <view class="des">Web design works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp5.jpg"></image>
+    <view class="ceng">
+      <view class="tit">电商设计作品</view>
+      <view class="line"></view>
+      <view class="des">E-business design works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp6.jpg"></image>
+    <view class="ceng">
+      <view class="tit">影视后期作品</view>
+      <view class="line"></view>
+      <view class="des">Late Film and Television Works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp7.jpg"></image>
+    <view class="ceng">
+      <view class="tit">建筑景观作品</view>
+      <view class="line"></view>
+      <view class="des">Architectural landscape works</view>
+    </view>
+  </navigator>
+    <navigator class="box">
+    <image class="pic" src="/images/xszp8.jpg"></image>
+    <view class="ceng">
+      <view class="tit">三维仿真作品</view>
+      <view class="line"></view>
+      <view class="des">3D simulation works</view>
+    </view>
+  </navigator>
+  </view>
+</view>
+
+<view class="dynamic">
+  <view class="container content">
+    <MyTitle mytxt="行业动态" myUrl="/pages/dome/dome"/>
+    <view class="dyMain">
+      <navigator class="dyItem"  wx:for="{{dateList}}" wx:key="index">
+      <view class="pic">
+        <image src="{{item.picurl}}"></image>
+      </view>
+      <view class="txt">
+        <view class="title">{{item.title}}</view>
+        <view class="info"><text>作者</text> : {{item.author}}
+          <text space="ensp">-</text> 
+          <text>时间</text> : {{item.posttime}}
+        </view>
+      </view>
+    </navigator>
+    </view>
+  </view>
+</view>
+
+<FootView/>

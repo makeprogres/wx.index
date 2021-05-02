@@ -1,0 +1,32 @@
+.top{width: 750rpx; height: 90rpx; }
+.header{display: flex ; justify-content: space-between;align-items: center;height: 100%;}
+.header image{height: 50rpx;}
+.header .kefu{position: relative;animation: dh 1s linear infinite alternate}
+.kefu .btn{position: absolute;width: 100%;height: 100%; left: 0; top: 0; opacity: 0;}
+
+.box{width: 750rpx;}
+.advert image{width: 100%; display: block;}
+.box .boxs{width: 100%; background: #1c356e; padding: 80rpx 0; position: relative;}
+.box .text{ background: #de2e05;width: 490rpx; height: 70rpx; margin: 0 auto; border-radius: 70rpx; color: #fff; font-size: 40rpx; text-align: center; line-height: 70rpx;}
+.boxs .text::before{display: block; content: ""; width: 490rpx; height: 70rpx; border: dotted 2px #de2e05; position: absolute; box-sizing: border-box;border-radius: 70rpx; transform: scale(1.03,1.2);}
+.box .boxs:nth-child(2n-1){background: #fff;}
+.boxs .banner{width: 100%; margin-top: 40rpx;}
+.boxs .txt{display: flex; flex-wrap: wrap;justify-content: space-between; padding: 40rpx 35rpx 0; box-sizing: border-box;}
+.boxs .txt view{width: 50%; position: relative;  box-sizing: border-box; font-size: 30rpx;}
+.boxs .txt view::before{display: block; content: "";
+width: 10rpx;height: 10rpx; background: #000; border-radius: 50%; position: absolute;left: -15rpx; top: 17rpx;}
+.boxs:nth-child(2n) .txt{color: #fff;}
+.boxs:nth-child(2n) .txt view::before{background: #fff;}
+
+.skillBox{margin: 40rpx 30rpx -50rpx; display: flex; flex-wrap: wrap; justify-content: center;}
+.skillBox .skill image{width: 200rpx; height: 200rpx; margin: 0 15rpx;}
+.skillBox .name{padding: 10rpx 0 40rpx; text-align: center; text-transform: uppercase;}
+
+
+
+
+
+
+.foot{padding: 30rpx; background: #f2f2f2;text-align: center;}
+.foot .img{width: 180rpx;}
+.foot .text{font-size: 25rpx; color: #666;}

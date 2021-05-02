@@ -1,0 +1,23 @@
+.top{width: 750rpx; height: 90rpx; }
+.header{display: flex ; justify-content: space-between;align-items: center;height: 100%;}
+.header image{height: 50rpx;}
+.header .kefu{position: relative;animation: dh 1s linear infinite alternate}
+.kefu .btn{position: absolute;width: 100%;height: 100%; left: 0; top: 0; opacity: 0;}
+
+
+.box{border-bottom: 1rpx solid rgba(0,0,0,0.3);}
+.lists{display: flex; flex-wrap: nowrap;  padding: 20rpx 0; margin-left: 40rpx;}
+.list{flex: 0 0 auto; margin-right: 20rpx;}
+
+
+.boxs{width: 100%;  display: flex;box-sizing: border-box;flex-wrap: wrap; justify-content: space-between; padding: 0 20rpx; background: #ddd;}
+.boxs .title{width: 350rpx;margin-top: 20rpx; height: 300rpx;background: #fff;}
+.boxs .img{width: 100%;}
+.boxs .looks{width: 20rpx;}
+.boxs .text{font-size: 25rpx; margin-bottom: 50rpx;}
+.boxs .genre{font-size: 20rpx;}
+.boxs .num{font-size: 20rpx;}
+.boxs .foot{display: flex; justify-content: space-between;}
+.boxs .look{display: flex;}
+.boxs .boxTxt{margin: 0 20rpx;}
+

@@ -1,0 +1,45 @@
+<view class="top">
+  <view class="header content">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+    <view  class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix"  src="/images/xiaoxi.png"></image>
+    </view>
+  </view>
+</view>
+
+<scroll-view class="box" scroll-x>
+  <view class="lists content" >
+    <navigator class="list">全部</navigator>
+    <navigator class="list">平面设计</navigator>
+    <navigator class="list">Web前端</navigator>
+    <navigator class="list">UI培训</navigator>
+    <navigator class="list">室内设计</navigator>
+    <navigator class="list">景观设计</navigator>
+    <navigator class="list">三维动画</navigator>
+    <navigator class="list">电子商务</navigator>
+    <navigator class="list">影视后期</navigator>
+    <navigator class="list">工业仿真</navigator>
+  </view>
+</scroll-view>
+
+<!-- <view class="outBox"> -->
+  <view class="boxs content">
+    <navigator class="title" wx:for="{{10}}">
+      <image mode="widthFix" class="img" src="/images/banner1.jpg"></image>
+      <view class="boxTxt">
+        <view class="text">安若丶年华__现代轻奢风格室内设计作品</view>
+      
+      <view class="foot">
+        <view class="genre">室内设计培训作品</view>
+        <view class="look">
+          <image mode="widthFix" class="looks" src="/images/look.png"></image>
+          <view class="num">192</view>
+        </view>
+      </view>
+      </view>
+    </navigator>
+  <!-- </view> -->
+</view>

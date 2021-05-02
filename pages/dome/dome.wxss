@@ -1,0 +1,17 @@
+.top{width: 750rpx; height: 90rpx; }
+.header{display: flex ; justify-content: space-between;align-items: center;height: 100%;}
+.header image{height: 50rpx;}
+.header .kefu{position: relative;animation: dh 1s linear infinite alternate}
+.kefu .btn{position: absolute;width: 100%;height: 100%; left: 0; top: 0; opacity: 0;}
+
+.header1{display: flex; height: 70rpx; text-align: center; border-bottom: rgba(0,0,0,0.3) 1rpx solid;}
+.header1 .num1{width: 100%;margin: auto 0;}
+
+.list{padding: 20rpx 0;}
+.lists::before{ width: 6rpx; height: 30rpx; content: ""; background: red; display: block;
+position: absolute; left: 20rpx; top: 45rpx;}
+.list .conter{display: flex;justify-content: space-between; position: relative;width: 100%;
+  padding:40rpx 20rpx; border-bottom: 1rpx dashed rgba(0,0,0,0.1); box-sizing: border-box;}
+.lists{margin: 0 20rpx;}
+.time{font-size: 22rpx; color: rgba(0,0,0,0.5);
+text-align: center;}

@@ -1,0 +1,24 @@
+<view class="top">
+  <view class="header content">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+    <view  class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix"  src="/images/xiaoxi.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="header1">
+  <navigator class="num1">行业动态</navigator>
+  <navigator class="num1">最新课表</navigator>
+  <navigator class="num1">基地新闻</navigator>
+</view>
+
+<view class="list">
+    <navigator class="conter " wx:for="{{10}}">
+      <view class="lists">2021年新视觉实训web前端</view>
+      <view class="time">2021.01.19</view>
+    </navigator>
+</view>

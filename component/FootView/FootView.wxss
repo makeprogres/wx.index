@@ -1,0 +1,3 @@
+.foot{padding: 30rpx; background: #f2f2f2;text-align: center;}
+.foot .img{width: 180rpx;}
+.foot .text{font-size: 25rpx; color: #666;}
